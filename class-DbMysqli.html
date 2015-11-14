@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.7.0" />
+
+	<title>Class DbMysqli | ThinkPHP</title>
+
+	<script type="text/javascript" src="resources/combined.js?1648527582"></script>
+	<script type="text/javascript" src="elementlist.js?1458882887"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?1567499433" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-Common.html">Common</a>
+						</li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li class="active"><a href="package-Think.html">Think<span></span></a>
+						<ul>
+				<li><a href="package-Think.Behavior.html">Behavior</a>
+						</li>
+				<li><a href="package-Think.Core.html">Core</a>
+						</li>
+				<li class="active"><a href="package-Think.Driver.html">Driver<span></span></a>
+						<ul>
+				<li><a href="package-Think.Driver.Cache.html">Cache</a>
+						</li>
+				<li class="active"><a href="package-Think.Driver.Db.html">Db</a>
+						</li>
+				<li><a href="package-Think.Driver.Taglib.html">Taglib</a>
+						</li>
+							</ul></li>
+				<li><a href="package-Think.Template.html">Template</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-DbMysql.html">DbMysql</a></li>
+				<li class="active"><a href="class-DbMysqli.html">DbMysqli</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Think.Driver.Db.html" title="Summary of Think\Driver\Db"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class DbMysqli</h1>
+
+
+	<div class="description">
+	
+<p>Mysqli数据库驱动类</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Db.html"><span>Db</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by" />
+<b><span>DbMysqli</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Think.html">Think</a>\<a href="package-Think.Driver.html">Driver</a>\<a href="package-Think.Driver.Db.html">Db</a><br />
+
+				<b>Category:</b>
+				Think<br />
+				<b>Author:</b>
+				liu21st &lt;<a
+href="mailto:liu21st&#64;gmail.com">liu21st&#64;<!---->gmail.com</a>&gt;<br />
+		<b>Located at</b> <a href="source-class-DbMysqli.html#13" title="Go to source code">Lib/Driver/Db/DbMysqli.class.php</a><br />
+	</div>
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-DbMysqli.html#22" title="Go to source code">__construct</a>( <span>array <var>$config</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>架构函数 读取数据库配置信息</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>架构函数 读取数据库配置信息</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$config</var></dt>
+					<dd><code>array</code><br> 数据库配置数组</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="connect" id="_connect">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_connect">#</a>
+		<code><a href="source-class-DbMysqli.html#39" title="Go to source code">connect</a>( <span> <var>$config</var> = <span class="php-quote">''</span></span>, <span> <var>$linkNum</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			
+<p>连接数据库方法</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>连接数据库方法</p>
+
+
+
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>ThinkExecption</code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="free" id="_free">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_free">#</a>
+		<code><a href="source-class-DbMysqli.html#66" title="Go to source code">free</a>( )</code>
+
+		<div class="description short">
+			
+<p>释放查询结果</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>释放查询结果</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="query" id="_query">
+
+		<td class="attributes"><code>
+			 public 
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_query">#</a>
+		<code><a href="source-class-DbMysqli.html#75" title="Go to source code">query</a>( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>执行查询 返回数据集</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>执行查询 返回数据集</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code><br> sql指令</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>mixed</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="execute" id="_execute">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_execute">#</a>
+		<code><a href="source-class-DbMysqli.html#108" title="Go to source code">execute</a>( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>执行语句</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>执行语句</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code><br> sql指令</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="startTrans" id="_startTrans">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_startTrans">#</a>
+		<code><a href="source-class-DbMysqli.html#135" title="Go to source code">startTrans</a>( )</code>
+
+		<div class="description short">
+			
+<p>启动事务</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>启动事务</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="commit" id="_commit">
+
+		<td class="attributes"><code>
+			 public 
+			boolen
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_commit">#</a>
+		<code><a href="source-class-DbMysqli.html#150" title="Go to source code">commit</a>( )</code>
+
+		<div class="description short">
+			
+<p>用于非自动提交状态下面的查询提交</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>用于非自动提交状态下面的查询提交</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolen</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="rollback" id="_rollback">
+
+		<td class="attributes"><code>
+			 public 
+			boolen
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_rollback">#</a>
+		<code><a href="source-class-DbMysqli.html#168" title="Go to source code">rollback</a>( )</code>
+
+		<div class="description short">
+			
+<p>事务回滚</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>事务回滚</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolen</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getFields" id="_getFields">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getFields">#</a>
+		<code><a href="source-class-DbMysqli.html#204" title="Go to source code">getFields</a>( <span> <var>$tableName</var></span> )</code>
+
+		<div class="description short">
+			
+<p>取得数据表的字段信息</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>取得数据表的字段信息</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTables" id="_getTables">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTables">#</a>
+		<code><a href="source-class-DbMysqli.html#227" title="Go to source code">getTables</a>( <span> <var>$dbName</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>取得数据表的字段信息</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>取得数据表的字段信息</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replace" id="_replace">
+
+		<td class="attributes"><code>
+			 public 
+			false
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replace">#</a>
+		<code><a href="source-class-DbMysqli.html#244" title="Go to source code">replace</a>( <span>mixed <var>$data</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>替换记录</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>替换记录</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd><code>mixed</code><br> 数据</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br> 参数表达式</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>false</code><br>| integer<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insertAll" id="_insertAll">
+
+		<td class="attributes"><code>
+			 public 
+			false
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insertAll">#</a>
+		<code><a href="source-class-DbMysqli.html#263" title="Go to source code">insertAll</a>( <span>mixed <var>$datas</var></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$replace</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>插入记录</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>插入记录</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$datas</var></dt>
+					<dd><code>mixed</code><br> 数据</dd>
+					<dt><var>$options</var></dt>
+					<dd><code>array</code><br> 参数表达式</dd>
+					<dt><var>$replace</var></dt>
+					<dd><code>boolean</code><br> 是否replace</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>false</code><br>| integer<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="close" id="_close">
+
+		<td class="attributes"><code>
+			 public 
+			volid
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_close">#</a>
+		<code><a href="source-class-DbMysqli.html#290" title="Go to source code">close</a>( )</code>
+
+		<div class="description short">
+			
+<p>关闭数据库</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>关闭数据库</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>volid</code><br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Db.html#_">Db::close</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="_error">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error">#</a>
+		<code><a href="source-class-DbMysqli.html#302" title="Go to source code">error</a>( )</code>
+
+		<div class="description short">
+			
+<p>数据库错误信息 并显示当前的SQL语句</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>数据库错误信息 并显示当前的SQL语句</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="escapeString" id="_escapeString">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_escapeString">#</a>
+		<code><a href="source-class-DbMysqli.html#318" title="Go to source code">escapeString</a>( <span>string <var>$str</var></span> )</code>
+
+		<div class="description short">
+			
+<p>SQL指令安全过滤</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>SQL指令安全过滤</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$str</var></dt>
+					<dd><code>string</code><br> SQL指令</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Db.html#_">Db::escapeString</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseKey" id="_parseKey">
+
+		<td class="attributes"><code>
+			 protected 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseKey">#</a>
+		<code><a href="source-class-DbMysqli.html#333" title="Go to source code">parseKey</a>( <span>string <var>&amp; $key</var></span> )</code>
+
+		<div class="description short">
+			
+<p>字段和表名处理添加`</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>字段和表名处理添加`</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Db.html#_">Db::parseKey</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Db.html#methods">Db</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Db.html#_">__destruct()</a>, 
+			<a href="class-Db.html#_">_getDsnType()</a>, 
+			<a href="class-Db.html#_">buildSelectSql()</a>, 
+			<a href="class-Db.html#_">debug()</a>, 
+			<a href="class-Db.html#_">delete()</a>, 
+			<a href="class-Db.html#_">factory()</a>, 
+			<a href="class-Db.html#_">getError()</a>, 
+			<a href="class-Db.html#_">getInstance()</a>, 
+			<a href="class-Db.html#_">getLastInsID()</a>, 
+			<a href="class-Db.html#_">getLastSql()</a>, 
+			<a href="class-Db.html#_">initConnect()</a>, 
+			<a href="class-Db.html#_">insert()</a>, 
+			<a href="class-Db.html#_">multiConnect()</a>, 
+			<a href="class-Db.html#_">parseDSN()</a>, 
+			<a href="class-Db.html#_">parseDistinct()</a>, 
+			<a href="class-Db.html#_">parseField()</a>, 
+			<a href="class-Db.html#_">parseGroup()</a>, 
+			<a href="class-Db.html#_">parseHaving()</a>, 
+			<a href="class-Db.html#_">parseJoin()</a>, 
+			<a href="class-Db.html#_">parseLimit()</a>, 
+			<a href="class-Db.html#_">parseLock()</a>, 
+			<a href="class-Db.html#_">parseOrder()</a>, 
+			<a href="class-Db.html#_">parseSet()</a>, 
+			<a href="class-Db.html#_">parseSql()</a>, 
+			<a href="class-Db.html#_">parseTable()</a>, 
+			<a href="class-Db.html#_">parseThinkWhere()</a>, 
+			<a href="class-Db.html#_">parseUnion()</a>, 
+			<a href="class-Db.html#_">parseValue()</a>, 
+			<a href="class-Db.html#_">parseWhere()</a>, 
+			<a href="class-Db.html#_">parseWhereItem()</a>, 
+			<a href="class-Db.html#_">select()</a>, 
+			<a href="class-Db.html#_">selectInsert()</a>, 
+			<a href="class-Db.html#_">setModel()</a>, 
+			<a href="class-Db.html#_">update()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Db.html#properties">Db</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Db.html#$_linkID"><var>$_linkID</var></a>, 
+			<a href="class-Db.html#$autoFree"><var>$autoFree</var></a>, 
+			<a href="class-Db.html#$comparison"><var>$comparison</var></a>, 
+			<a href="class-Db.html#$config"><var>$config</var></a>, 
+			<a href="class-Db.html#$connected"><var>$connected</var></a>, 
+			<a href="class-Db.html#$dbType"><var>$dbType</var></a>, 
+			<a href="class-Db.html#$error"><var>$error</var></a>, 
+			<a href="class-Db.html#$lastInsID"><var>$lastInsID</var></a>, 
+			<a href="class-Db.html#$linkID"><var>$linkID</var></a>, 
+			<a href="class-Db.html#$model"><var>$model</var></a>, 
+			<a href="class-Db.html#$modelSql"><var>$modelSql</var></a>, 
+			<a href="class-Db.html#$numCols"><var>$numCols</var></a>, 
+			<a href="class-Db.html#$numRows"><var>$numRows</var></a>, 
+			<a href="class-Db.html#$pconnect"><var>$pconnect</var></a>, 
+			<a href="class-Db.html#$queryID"><var>$queryID</var></a>, 
+			<a href="class-Db.html#$queryStr"><var>$queryStr</var></a>, 
+			<a href="class-Db.html#$selectSql"><var>$selectSql</var></a>, 
+			<a href="class-Db.html#$transTimes"><var>$transTimes</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+</div>
+
+	<div id="footer">
+		ThinkPHP API documentation generated by <a href="http://apigen.org">ApiGen 2.7.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.7.0" />
+
+	<title>Class Log | ThinkPHP</title>
+
+	<script type="text/javascript" src="resources/combined.js?1648527582"></script>
+	<script type="text/javascript" src="elementlist.js?1458882887"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?1567499433" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-Common.html">Common</a>
+						</li>
+				<li><a href="package-None.html">None</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+				<li class="active"><a href="package-Think.html">Think<span></span></a>
+						<ul>
+				<li><a href="package-Think.Behavior.html">Behavior</a>
+						</li>
+				<li class="active"><a href="package-Think.Core.html">Core</a>
+						</li>
+				<li><a href="package-Think.Driver.html">Driver<span></span></a>
+						<ul>
+				<li><a href="package-Think.Driver.Cache.html">Cache</a>
+						</li>
+				<li><a href="package-Think.Driver.Db.html">Db</a>
+						</li>
+				<li><a href="package-Think.Driver.Taglib.html">Taglib</a>
+						</li>
+							</ul></li>
+				<li><a href="package-Think.Template.html">Template</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Action.html">Action</a></li>
+				<li><a href="class-App.html">App</a></li>
+				<li><a href="class-Behavior.html">Behavior</a></li>
+				<li><a href="class-Cache.html">Cache</a></li>
+				<li><a href="class-Db.html">Db</a></li>
+				<li><a href="class-Dispatcher.html">Dispatcher</a></li>
+				<li class="active"><a href="class-Log.html">Log</a></li>
+				<li><a href="class-Model.html">Model</a></li>
+				<li><a href="class-Think.html">Think</a></li>
+				<li><a href="class-View.html">View</a></li>
+				<li><a href="class-Widget.html">Widget</a></li>
+			</ul>
+
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-ThinkException.html">ThinkException</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-Think.Core.html" title="Summary of Think\Core"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Log</h1>
+
+
+	<div class="description">
+	
+<p>日志处理类</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Think.html">Think</a>\<a href="package-Think.Core.html">Core</a><br />
+
+				<b>Category:</b>
+				Think<br />
+				<b>Author:</b>
+				liu21st &lt;<a
+href="mailto:liu21st&#64;gmail.com">liu21st&#64;<!---->gmail.com</a>&gt;<br />
+		<b>Located at</b> <a href="source-class-Log.html#12" title="Go to source code">Lib/Core/Log.class.php</a><br />
+	</div>
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="record" id="_record">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_record">#</a>
+		<code><a href="source-class-Log.html#44" title="Go to source code">record</a>( <span>string <var>$message</var></span>, <span>string <var>$level</var> = <code><a href="class-Log.html#ERR">Log::<b>ERR</b></a></code></span>, <span>boolean <var>$record</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>记录日志 并且会过滤未经设置的级别</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>记录日志 并且会过滤未经设置的级别</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br> 日志信息</dd>
+					<dt><var>$level</var></dt>
+					<dd><code>string</code><br> 日志级别</dd>
+					<dt><var>$record</var></dt>
+					<dd><code>boolean</code><br> 是否强制记录</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="save" id="_save">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_save">#</a>
+		<code><a href="source-class-Log.html#59" title="Go to source code">save</a>( <span>integer <var>$type</var> = <span class="php-quote">''</span></span>, <span>string <var>$destination</var> = <span class="php-quote">''</span></span>, <span>string <var>$extra</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>日志保存</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>日志保存</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>integer</code><br> 日志记录方式</dd>
+					<dt><var>$destination</var></dt>
+					<dd><code>string</code><br> 写入目标</dd>
+					<dt><var>$extra</var></dt>
+					<dd><code>string</code><br> 额外参数</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="write" id="_write">
+
+		<td class="attributes"><code>
+			 public static
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_write">#</a>
+		<code><a href="source-class-Log.html#88" title="Go to source code">write</a>( <span>string <var>$message</var></span>, <span>string <var>$level</var> = <code><a href="class-Log.html#ERR">Log::<b>ERR</b></a></code></span>, <span>integer <var>$type</var> = <span class="php-quote">''</span></span>, <span>string <var>$destination</var> = <span class="php-quote">''</span></span>, <span>string <var>$extra</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>日志直接写入</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>日志直接写入</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br> 日志信息</dd>
+					<dt><var>$level</var></dt>
+					<dd><code>string</code><br> 日志级别</dd>
+					<dt><var>$type</var></dt>
+					<dd><code>integer</code><br> 日志记录方式</dd>
+					<dt><var>$destination</var></dt>
+					<dd><code>string</code><br> 写入目标</dd>
+					<dt><var>$extra</var></dt>
+					<dd><code>string</code><br> 额外参数</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="EMERG" id="EMERG">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#22" title="Go to source code"><b>EMERG</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'EMERG'</span></code></td>
+		<td class="description"><div>
+			<a href="#EMERG" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ALERT" id="ALERT">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#23" title="Go to source code"><b>ALERT</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'ALERT'</span></code></td>
+		<td class="description"><div>
+			<a href="#ALERT" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="CRIT" id="CRIT">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#24" title="Go to source code"><b>CRIT</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'CRIT'</span></code></td>
+		<td class="description"><div>
+			<a href="#CRIT" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ERR" id="ERR">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#25" title="Go to source code"><b>ERR</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'ERR'</span></code></td>
+		<td class="description"><div>
+			<a href="#ERR" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="WARN" id="WARN">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#26" title="Go to source code"><b>WARN</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'WARN'</span></code></td>
+		<td class="description"><div>
+			<a href="#WARN" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="NOTICE" id="NOTICE">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#27" title="Go to source code"><b>NOTICE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'NOTIC'</span></code></td>
+		<td class="description"><div>
+			<a href="#NOTICE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="INFO" id="INFO">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#28" title="Go to source code"><b>INFO</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'INFO'</span></code></td>
+		<td class="description"><div>
+			<a href="#INFO" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="DEBUG" id="DEBUG">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#29" title="Go to source code"><b>DEBUG</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'DEBUG'</span></code></td>
+		<td class="description"><div>
+			<a href="#DEBUG" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="SQL" id="SQL">
+
+		<td class="attributes"><code>
+			string
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#30" title="Go to source code"><b>SQL</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-quote">'SQL'</span></code></td>
+		<td class="description"><div>
+			<a href="#SQL" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="SYSTEM" id="SYSTEM">
+
+		<td class="attributes"><code>
+			integer
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#33" title="Go to source code"><b>SYSTEM</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#SYSTEM" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="MAIL" id="MAIL">
+
+		<td class="attributes"><code>
+			integer
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#34" title="Go to source code"><b>MAIL</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">1</span></code></td>
+		<td class="description"><div>
+			<a href="#MAIL" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="FILE" id="FILE">
+
+		<td class="attributes"><code>
+			integer
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#35" title="Go to source code"><b>FILE</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">3</span></code></td>
+		<td class="description"><div>
+			<a href="#FILE" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="SAPI" id="SAPI">
+
+		<td class="attributes"><code>
+			integer
+		</code></td>
+		<td class="name"><code>
+				<a href="source-class-Log.html#36" title="Go to source code"><b>SAPI</b></a>
+		</code></td>
+		<td class="value"><code><span class="php-num">4</span></code></td>
+		<td class="description"><div>
+			<a href="#SAPI" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="log" id="$log">
+
+		<td class="attributes"><code>
+			public static
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Log.html#39" title="Go to source code"><var>$log</var></a>
+		</td>
+		<td class="value"><code><span class="php-keyword1">array</span>()</code></td>
+		<td class="description"><div>
+			<a href="#$log" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="format" id="$format">
+
+		<td class="attributes"><code>
+			public static
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Log.html#42" title="Go to source code"><var>$format</var></a>
+		</td>
+		<td class="value"><code><span class="php-quote">'[ c ]'</span></code></td>
+		<td class="description"><div>
+			<a href="#$format" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+</div>
+
+	<div id="footer">
+		ThinkPHP API documentation generated by <a href="http://apigen.org">ApiGen 2.7.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
